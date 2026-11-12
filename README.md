@@ -69,7 +69,7 @@ Geração de gráficos automatizados (como Box Plots para variáveis numéricas 
 
 ## 6. Respondendo às Perguntas de Negócio
 ### 1. Quais são os estados com maior número de acidentes?
-<img src="./imagens datatran2026/1_acidentes_por_estado.png" alt="acidentes por estado" width="300">
+<img src="./imagens/1_acidentes_por_estado.png" alt="acidentes por estado" width="600">
 
 Os Top 4 estados com maior número de acidentes são:
 * 1º Lugar: MG
@@ -78,10 +78,8 @@ Os Top 4 estados com maior número de acidentes são:
 * 4º Lugar: RJ
 
 ### 2. Quais são as principais causas e tipos de acidentes?
-<p align="left">
-  <img src="./imagens datatran2026/2_acidentes_por_causa.png" alt="acidentes por causa" width="300">
-  <img src="./imagens datatran2026/2_acidentes_por_causa_comparação.png" alt="comparação top10 vs outras" width="300">
-</p>
+<img src="./imagens/2_acidentes_por_causa.png" alt="acidentes por causa" width="600">
+<img src="./imagens/2_acidentes_por_causa_comparação.png" alt="comparação top10 vs outras" width="200">
 
 As 10 principais causas de acidentes são:
 * 1ª Ausência de reação do condutor
@@ -100,10 +98,8 @@ Além disso:
 * Enquanto as Outras Causas representam 26,50% (um total de 14.548 acidentes)
 
 ### 3. Em quais dias da semana e horários a incidência é maior?
-<p align="left">
-  <img src="./imagens datatran2026/3_acidentes_por_dia_semana.png" alt="acidentes por dia da semana" width="300">
-  <img src="./imagens datatran2026/3_acidentes_horarios.png" alt="acidentes por horário" width="300">
-</p>
+<img src="./imagens/3_acidentes_por_dia_semana.png" alt="acidentes por dia da semana" width="600">
+<img src="./imagens/3_acidentes_horarios.png" alt="acidentes por horário" width="600">
 
 Os Top 3 dias da semana em que mais ocorrem acidentes são:
 * Domingo
@@ -116,15 +112,13 @@ Além disso, os horários em que mais ocorrem acidentes, em cada um desses Top 3
 * Das 17:00 às 19:00 na Sexta-feira (2 horas)
 
 ### 4. De que forma a condição meteorológica influencia as ocorrências?
-<img src="./imagens datatran2026/4_acidentes_por_clima.png" alt="acidentes por condições climáticas" width="300">
+<img src="./imagens/4_acidentes_por_clima.png" alt="acidentes por condições climáticas" width="600">
 
 Aqui, vemos que as condições climáticas adversas não inlfuenciam no número de acidentes. Pois a maior parte dos acidentes acontece sob **condições de Céu Claro**.
 
 ### 5. Quais são as consequências humanas (número de mortos e feridos) associadas aos incidentes?
-<p align="left">
-  <img src="./imagens datatran2026/5_acidentes_por_tipo.png" alt="acidentes por tipo" width="300">
-  <img src="./imagens datatran2026/5_acidentes_por_severidade.png" alt="severidade" width="300">
-</p>
+<img src="./imagens/5_acidentes_por_tipo.png" alt="acidentes por tipo" width="600">
+<img src="./imagens/5_acidentes_por_severidade.png" alt="severidade" width="700">
 
 Os tipos de acidentes e suas consequências:
 * Os Top 5 tipos de acidentes que mais acontecem nas rodovias são: Colisão traseira, Saída do leito carroçável, Colisção transversal, Colisão lateral mesmo sentido e Tombamento.
@@ -132,7 +126,13 @@ Os tipos de acidentes e suas consequências:
 * O tipo que é mais grave, porém sem óbitos, é a Colisão Traseira, que deixou 2.688 feridos graves
 
 ## 7. Principais Conclusões e Insights
+* **1 - Concentração Geográfica:** Estados com malhas rodoviárias densas e corredores logísticos expressivos, como Minas Gerais, concentram o maior esforço operacional e demandam campanhas direcionadas de conscientização viária.
+* **2 - Fator Humano como Protagonista:** Ao contrário do que as pessoas pensam, as condições climáticas adversas não parecer ter influência significativa no número de acidentes nem em sua gravidade, uma vez que a maior parte dos acidentes acontece sob condições de Céu Claro. A predominância de colisões traseiras e a ausência de reação do condutor evidenciam que a desatenção, fadiga ou distração ao volante representam o principal vetor de risco nas rodovias federais.
+* **3 - Sazonalidade de Fim de Semana:** Os picos de acidentalidade aos domingos, sábados e sextas exigem reforço operacional ostensivo da PRF nesses períodos.
 
+### Insights
+* **Policiamento e Monitoramento:** Intensificar a fiscalização nos estados, dias e horários de maior ocorrência, usando, por exemplo, câmeras e radares inteligentes.
+* **Educação e Conscientização:** Incentivar campanhas educativas focadas nos horários e dias com maior ocorrência de acidentes, principalmente a partir das 17h, enfatizando a importância da atenção ao dirigir e da adaptação da velocidade às condições da via.
 
 ## 8. Tecnologias Utilizadas
 * Linguagem: Python
